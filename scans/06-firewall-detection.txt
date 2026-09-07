@@ -1,0 +1,7 @@
+# Nmap 7.99 scan initiated Mon Sep  7 16:09:30 2026 as: /usr/lib/nmap/nmap -sA -oN scans/06-firewall-detection.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000020s latency).
+All 1000 scanned ports on localhost (127.0.0.1) are in ignored states.
+Not shown: 1000 unfiltered tcp ports (reset)
+
+# Nmap done at Mon Sep  7 16:09:30 2026 -- 1 IP address (1 host up) scanned in 0.10 seconds
