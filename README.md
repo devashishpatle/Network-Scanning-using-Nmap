@@ -55,7 +55,9 @@ sudo apt install nmap -y
 ```
 **Description:**
 Nmap was installed on the Linux system.
-![Description](screenshots/01-nmap-installation.png)
+![Apt update](screenshots/sudo-apt-update.png)
+![Installation](screenshots/01-nmap-installation.png)
+![Nmap Version](screenshots/02-nmap-version.png)
 
 # 2️⃣ Host Discovery
 
@@ -66,6 +68,7 @@ nmap -sn 127.0.0.1
 ```
 **Description:**
 The -sn option performs host discovery without performing a traditional port scan. It is used to determine whether the target host is available.
+![Host Discovery](screenshots/03-host-discovery.png)
 
 # 3️⃣ Port Scanning
 
@@ -76,6 +79,7 @@ sudo nmap -p- 127.0.0.1
 ```
 **Description:**
 The -p- option scans all TCP ports from 1 through 65535. The scan helps identify open, closed, and filtered ports.
+![Port Scanning](screenshots/04-port-scanning.png)
 
 # 4️⃣ Service & Version Detection
 
@@ -86,6 +90,7 @@ sudo nmap -sV 127.0.0.1
 ```
 **Description:**
 The -sV option attempts to identify services running on open ports and obtain available version information.
+![Service Version](screenshots/05-service-version.png)
 
 # 5️⃣ OS Detection
 
@@ -96,6 +101,7 @@ sudo nmap -O 127.0.0.1
 ```
 **Description:**
 The -O option attempts to identify the operating system of the target. OS detection may be limited when scanning localhost.
+![OS Detection](screenshots/06-os-detection.png)
 
 # 6️⃣ NSE Script Scanning
 
@@ -106,6 +112,7 @@ sudo nmap -sC -sV 127.0.0.1
 ```
 **Description:**
 The -sC option runs Nmap's default NSE scripts. The -sV option performs service and version detection. This provides additional information about detected services.
+![NSE Script Scanning](screenshots/07-nse-script-scanning.png)
 
 # 7️⃣ Firewall Detection
 
@@ -116,6 +123,7 @@ sudo nmap -sA 127.0.0.1
 ```
 **Description:**
 The -sA option performs an ACK scan. The scan can be used to analyze packet-filtering behavior and identify filtered or unfiltered responses.
+![Firewall Detection](screenshots/08-firewall-detection.png)
 
 # 8️⃣ Final Nmap Scan
 
@@ -132,3 +140,4 @@ The final scan combines:
 - OS detection
 
 This provides a consolidated view of the target.
+![Final Nmap Scan](screenshots/09-final-scan.png)
