@@ -55,6 +55,7 @@ sudo apt install nmap -y
 ```
 **Description:**
 Nmap was installed on the Linux system.
+![Description](screenshots/01-nmap-installation.png)
 
 # 2️⃣ Host Discovery
 
