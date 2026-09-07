@@ -126,8 +126,8 @@ sudo nmap -sC -sV -O 127.0.0.1
 **Description:**
 The final scan combines:
 
---Default NSE scripts
---Service and version detection
---OS detection
+- Default NSE scripts
+- Service and version detection
+- OS detection
 
 This provides a consolidated view of the target.
